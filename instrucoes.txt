@@ -1,0 +1,18 @@
+Passos para executar o MyTasks no Eclipse
+=========================================
+1 - copie a pasta "workspacemytasks" que está dentro da pasta "ProjetoJava", cole em "C:".
+2 - execute o eclipse como administrador, e selecione a pasta "C:/workspacemytasks" como workspace.
+3 - execute a classe "IniciarView" no package "view" para iniciar a aplicação.
+
+
+-------------------------------------------------------------------
+Caso a aplicação pare de funcionar login/envio de e-mail
+
+1 - Acesse o diretório: C:\workspacemytasks\Projeto Integrador\banco
+2 - Apague o arquivo "usuarios.xls" da pasta
+3 - renomeie um dos arquivos "usuarios - Copia.xls" para "usuarios.xls".
+4 - execute novamente a classe "IniciarView" no package "view" para iniciar a aplicação.
+
+**Esse erro acontece devido a uma necessidade de dados de telas anteriores ao fluxo da aplicação,
+Pode ocorrer caso abra paginas fora do fluxo dentro do projeto, ou ao fechar as paginas antes do encerramento correto do fluxo da aplicação.
+----------------------------------------------------------------------------
